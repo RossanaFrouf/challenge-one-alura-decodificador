@@ -1,5 +1,5 @@
 * {
-    background: #E5E5E5;
+    background: #708090;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 32px;
@@ -12,6 +12,7 @@
     width: 2%;
 }
 
+
 main {
     display: flex;
     margin-bottom: 50px;
@@ -20,12 +21,12 @@ main {
 
 .text-area {
     border: none;
-    color: #0A3871;
+    color: #000000;
     margin-top: 92px;
     text-transform: lowercase;
 }
 
-::placeholder { color: #0A3871; }
+::placeholder { color: #000000; }
     .text-area:focus {
         outline: none;
     }
@@ -36,7 +37,7 @@ main {
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
-    color: #0A3871;
+    color: #000000;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
@@ -61,7 +62,7 @@ main {
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    color: #0A3871;
+    color: #000000;
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
@@ -69,8 +70,8 @@ main {
 }
 
 .btn-encriptar {
-    background-color: #0A3871;
-    border: 1px solid #0A3871;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 24px;
     color: white;
     cursor: pointer;
@@ -79,9 +80,10 @@ main {
 }
 
 .btn-copiar {
-    border: 1px solid #0A3871;
+    border: 1px solid #000000;
     border-radius: 24px;
-    color: #0A3871;
+    font-size: 20px;
+    color: #000000;
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
@@ -91,6 +93,6 @@ main {
 }
 
 .informacao {
-    color: #495057;
+    color: #000000;
     font-size:18px;
 }
